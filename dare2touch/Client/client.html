@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DARE2TOUCH</title>
+		<link rel="stylesheet" type="text/css" href="/Client/client_style.css">
+		<link rel="icon" href="/Client/favicon.ico">
+	</head>
+
+	<script src = "/socket.io/socket.io.js"></script>
+	<script src="/Client/renderer.js"></script>
+	<script src="/Server-Client/gc.js"></script>
+	<script src="/Server-Client/grid.js"></script>
+	<script src="/rsa/BigInteger.min.js"></script>
+	<script src="/rsa/rsa_encryptor.js"></script>
+	<script src="/Client/client.js"></script>
+	
+	<body>
+		<div id = "win">
+		  <div id="imgcontainer" class="imgcontainer">
+		    <img src="/Client/dare2touch.png" alt="Dare2Touch" class="Dare2Touch">
+		  </div>
+
+		  <div id="everything" class="container">
+		  	<center>
+			    <label><b>Username</b></label>&emsp;
+			    <input id = "PlayerID" type="text" placeholder="Enter Username" name="PlayerID"><br>
+				<div id = "username-error-container" class="error"></div>
+			    <label><b>Password </b></label>&emsp;
+			    <input id="password" type="password" placeholder="Enter Password" name="password"><br>
+			    <div id = "password-error-container" class="error"></div>
+			    <div id="signup">
+			    <button id="login_button" class="login_button" type="submit" onclick="Join()"><b>Login</b></button><br>
+			    First Time User?? <button class="signup_button" type="submit" onclick="Signup_window()">SignUp</button>
+				</div>
+		    </center>
+		  </div>
+		</div>
+	</body>
+</html>

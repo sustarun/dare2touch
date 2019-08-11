@@ -1,0 +1,19 @@
+npm_modules
+node_modules
+html
+latex
+gameSessionClass.txt
+bower_components
+trash
+Error.log
+.DS_Store
+.sass-cache
+.tmp
+.rvmrc
+.trashes
+*~
+bkup
+dummy
+# Optional things
+*.sublime-project
+*.sublime-workspace

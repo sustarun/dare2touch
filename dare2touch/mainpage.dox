@@ -1,0 +1,5 @@
+/**
+\mainpage
+Dare 2 Touch is a simple web based multiplayer game.
+In this game, each player is represented by a moving square area, which leaves a trail behind it as it moves. Movement can occur in only four directions (viz. East, West, North and South). The direction of motion will be controlled by Arrow Keys. To stay in the game, the player should not hit any trail (not even its own). So, in any game session, players will try to force others to hit some trail. The final survivor is the winner.
+*/

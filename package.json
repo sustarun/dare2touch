@@ -11,7 +11,7 @@
     "method-override": "^2.3.10",
     "mysql": "^2.15.0",
     "session.socket.io": "^0.2.1",
-    "socket.io": "^2.0.3"
+    "socket.io": "^2.5.0"
   },
   "devDependencies": {},
   "scripts": {
